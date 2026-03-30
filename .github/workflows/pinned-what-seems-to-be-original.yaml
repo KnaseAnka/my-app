@@ -1,0 +1,11 @@
+name: pinned-what-seems-to-be-original
+on: [push, workflow_dispatch]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      # This is pinned to the orig repo of the action
+      - uses: WillieDanielWortel/hello-world-action@69a62fb205ec1576411c451f37e92476dc449680
