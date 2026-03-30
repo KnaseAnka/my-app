@@ -8,4 +8,4 @@ jobs:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
       # This is pinned to the orig repo of the action
-      - uses: WillieDanielWortel/hello-world-action@3028a591eb5123615c1042910b1aaa87409ffede
+      - uses: WillieDanielWortel/hello-world-action@69a62fb205ec1576411c451f37e92476dc449680
